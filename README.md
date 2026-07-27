@@ -33,6 +33,22 @@ The analysis relies on a relational star/snowflake schema:
 
 ---
 
+## 📊 Power BI Dashboard
+
+To complement the SQL analysis, an interactive **Power BI Dashboard** was developed to visualize key customer insights, EV adoption readiness, and financial comparisons.
+
+![EV Market Readiness Dashboard](dashboard.png)
+
+### 🔑 Key Visualizations & Features:
+* **KPI Header:** Tracks overall respondent metrics (50K total respondents, average income, and average monthly fuel expense).
+* **EV Adoption Likelihood:** Breakdown of potential adoption levels across High, Medium, and Low likelihoods.
+* **Fuel vs. Charging Cost Comparison:** Highlights the monthly cost savings of electric charging versus traditional fuel across Urban, Suburban, and Rural areas.
+* **Range Anxiety vs. Home Charging:** Analyzes how the availability of home charging impacts range anxiety scores.
+* **Knowledge & Awareness Score:** Evaluates average EV knowledge levels by education status and environmental awareness across city types.
+* **Interactive Slicers:** Allows dynamic filtering by `City Type` for tailored analysis.
+
+---  
+
 ## 🚀 Key Insights & Strategic Findings
 
 ### 💰 1. Financial Savings & Transition Value
