@@ -37,7 +37,7 @@ The analysis relies on a relational star/snowflake schema:
 
 To complement the SQL analysis, an interactive **Power BI Dashboard** was developed to visualize key customer insights, EV adoption readiness, and financial comparisons.
 
-![EV Market Readiness Dashboard](./PowerBI-Dashboard/dashboard.png)
+![EV Market Readiness Dashboard](./PowerBI-Dashboard/Dashboard.png)
 
 ### 🔑 Key Visualizations & Features:
 * **KPI Header:** Tracks overall respondent metrics (50K total respondents, average income, and average monthly fuel expense).
