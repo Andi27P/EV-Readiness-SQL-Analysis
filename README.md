@@ -14,7 +14,7 @@ This project performs an end-to-end SQL analysis on consumer demographics and El
 
 ---
 
-## 🛠️ Tech Stack & SQL Capabilities
+## 🛠️ Skills & Knowledge
 * **Database Management System:** SQLite / SQL Server
 * **Data Transformation & Aggregation:** `CAST` / `CONVERT`, `CASE WHEN`, `GROUP BY`, `ORDER BY`
 * **Relational Joins:** Multi-table `INNER JOIN` operations (`Dim_Customer` and `Fact_EV_Readiness`)
