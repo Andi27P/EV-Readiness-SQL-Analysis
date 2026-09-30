@@ -6,11 +6,11 @@ This project performs an end-to-end SQL analysis on consumer demographics and El
 ---
 
 ## 📊 Key Business Questions Answered
-1. **Financial Feasibility:** What are the average monthly savings for customers transitioning from traditional fuel to electric vehicles across different regions?
-2. **Adoption Drivers & Barriers:** How do home charging availability, charging station proximity, and range anxiety influence EV adoption likelihood?
-3. **Customer Segmentation:** How does income level correlate with technology affinity, environmental awareness, and EV knowledge?
-4. **Regional Benchmarking & Top Earners:** Who are the top 5 highest earners in each region, and how does individual income compare to regional benchmarks?
-5. **Market Share Optimization:** Which geographic segments hold the largest share of high-likelihood EV adopters?
+1. What are the average monthly savings for customers transitioning from traditional fuel to electric vehicles across different regions?
+2. How do home charging availability, charging station proximity, and range anxiety influence EV adoption likelihood?
+3. How does income level correlate with technology affinity, environmental awareness, and EV knowledge?
+4. Who are the top 5 highest earners in each region, and how does individual income compare to regional benchmarks?
+5. Which geographic segments hold the largest share of high-likelihood EV adopters?
 
 ---
 
@@ -35,40 +35,25 @@ The analysis relies on a relational star/snowflake schema:
 
 ## 📊 Power BI Dashboard
 
-To complement the SQL analysis, an interactive **Power BI Dashboard** was developed to visualize key customer insights, EV adoption readiness, and financial comparisons.
+To complement the SQL analysis, I made an interactive **Power BI Dashboard** to visualize key customer insights, EV adoption readiness, and financial comparisons.
 
 ![EV Market Readiness Dashboard](./PowerBI-Dashboard/Dashboard.png)
 
-### 🔑 Key Visualizations & Features:
-* **KPI Header:** Tracks overall respondent metrics (50K total respondents, average income, and average monthly fuel expense).
-* **EV Adoption Likelihood:** Breakdown of potential adoption levels across High, Medium, and Low likelihoods.
-* **Fuel vs. Charging Cost Comparison:** Highlights the monthly cost savings of electric charging versus traditional fuel across Urban, Suburban, and Rural areas.
-* **Range Anxiety vs. Home Charging:** Analyzes how the availability of home charging impacts range anxiety scores.
-* **Knowledge & Awareness Score:** Evaluates average EV knowledge levels by education status and environmental awareness across city types.
-* **Interactive Slicers:** Allows dynamic filtering by `City Type` for tailored analysis.
+* **Overview:** Summarizes 50K respondents, tracking average income and fuel expenses.
+* **Cost Comparison:** Compares monthly charging vs. fuel costs across Urban, Suburban, and Rural segments.
+* **Behavioral Drivers:** Visualizes the relationship between home charging availability, range anxiety, and overall adoption likelihood.
 
 ---  
 
-## 🚀 Key Insights & Strategic Findings
-
-### 💰 1. Financial Savings & Transition Value
-* Customers switching to EVs achieve significant monthly cost savings across all city types (`fuel_expense_per_month` vs. `monthly_charging_cost`).
-* Highest fuel expenses were observed in suburban and urban areas, making them prime candidates for cost-benefit marketing strategies.
-
-### 🔋 2. Infrastructure & Range Anxiety Impact
-* Home charging availability (`home_charging_available`) significantly reduces range anxiety and strongly correlates with higher EV adoption scores.
-* Proximity to public charging stations directly impacts consumer willingness to transition.
-
-### 📈 3. Income Segmentation & Tech Affinity
-* **High Income Segment:** Displays the highest scores in technology affinity, EV knowledge, and environmental awareness, leading to the highest EV adoption rates.
-* **Middle Income Segment:** Represents a significant opportunity volume, where clear messaging around long-term fuel savings can unlock massive adoption.
-
-### 🏆 4. Regional Market Share
-* Using dynamic window functions, the analysis revealed that **Urban and Suburban regions** account for the vast majority of high-likelihood EV adopters (`High` adoption category).
+## 📈 Main Findings
+* **Cost Savings:** Monthly charging costs are consistently lower than traditional fuel expenses, with the highest potential savings observed in suburban and urban areas due to longer average commutes.
+* **Charging Infrastructure:** Home charging availability is the strongest factor in reducing range anxiety and directly aligns with higher adoption likelihood scores.
+* **Demographic Trends:** High-income respondents scored higher in tech affinity and EV knowledge. Middle-income segments show high volume potential if marketing focuses on long-term fuel savings.
+* **Geographic Distribution:** Urban and suburban markets represent the largest share of high-likelihood EV adopters.
 
 ---
 
-## 📂 Repository Structure
+## 📂 Project Structure
 ```text
 ├── Portfolio_EV_Analysis.sql   # Full SQL script containing all 11 analytical queries
 ├── Dim_Customer.csv            # Customer demographic dataset
