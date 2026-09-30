@@ -5,7 +5,7 @@ This project performs an SQL analysis on consumer demographics and Electric Vehi
 
 ---
 
-## 📊 Key Business Questions Answered
+## 📊 Business Questions Answered
 1. What are the average monthly savings for customers transitioning from traditional fuel to electric vehicles across different regions?
 2. How do home charging availability, charging station proximity and range anxiety influence EV adoption likelihood?
 3. How does income level correlate with technology affinity, environmental awareness and EV knowledge?
