@@ -45,7 +45,7 @@ To complement the SQL analysis, I made an interactive **Power BI Dashboard** to 
 
 ---  
 
-## 📈 Main Findings
+## 📈 Conclusions
 * **Cost Savings:** Monthly charging costs are consistently lower than traditional fuel expenses, with the highest potential savings observed in suburban and urban areas due to longer average commutes.
 * **Charging Infrastructure:** Home charging availability is the strongest factor in reducing range anxiety and directly aligns with higher adoption likelihood scores.
 * **Demographic Trends:** High-income respondents scored higher in tech affinity and EV knowledge. Middle-income segments show high volume potential if marketing focuses on long-term fuel savings.
