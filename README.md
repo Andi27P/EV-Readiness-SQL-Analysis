@@ -55,7 +55,7 @@ To complement the SQL analysis, I made an interactive **Power BI Dashboard** to 
 
 ## 📂 Project Structure
 ```text
-├── Portfolio_EV_Analysis.sql   # Full SQL script containing all 11 analytical queries
+├── Portfolio_EV_Analysis.sql   # SQL Querries
 ├── Dim_Customer.csv            # Customer demographic dataset
 ├── Fact_EV_Readiness.csv       # EV adoption & behavioral dataset
 └── README.md                   # Project documentation and summary
