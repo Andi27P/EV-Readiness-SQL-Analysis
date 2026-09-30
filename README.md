@@ -7,9 +7,9 @@ This project performs an SQL analysis on consumer demographics and Electric Vehi
 
 ## 📊 Key Business Questions Answered
 1. What are the average monthly savings for customers transitioning from traditional fuel to electric vehicles across different regions?
-2. How do home charging availability, charging station proximity, and range anxiety influence EV adoption likelihood?
-3. How does income level correlate with technology affinity, environmental awareness, and EV knowledge?
-4. Who are the top 5 highest earners in each region, and how does individual income compare to regional benchmarks?
+2. How do home charging availability, charging station proximity and range anxiety influence EV adoption likelihood?
+3. How does income level correlate with technology affinity, environmental awareness and EV knowledge?
+4. Who are the top 5 highest earners in each region and how does individual income compare to regional benchmarks?
 5. Which geographic segments hold the largest share of high-likelihood EV adopters?
 
 ---
@@ -35,13 +35,13 @@ The analysis relies on a relational star/snowflake schema:
 
 ## 📊 Power BI Dashboard
 
-To complement the SQL analysis, I made an interactive **Power BI Dashboard** to visualize key customer insights, EV adoption readiness, and financial comparisons.
+To complement the SQL analysis, I made an interactive **Power BI Dashboard** to visualize key customer insights, EV adoption readiness and financial comparisons.
 
 ![EV Market Readiness Dashboard](./PowerBI-Dashboard/Dashboard.png)
 
 * **Overview:** Summarizes 50K respondents, tracking average income and fuel expenses.
-* **Cost Comparison:** Compares monthly charging vs. fuel costs across Urban, Suburban, and Rural segments.
-* **Behavioral Drivers:** Visualizes the relationship between home charging availability, range anxiety, and overall adoption likelihood.
+* **Cost Comparison:** Compares monthly charging vs. fuel costs across Urban, Suburban and Rural segments.
+* **Behavioral Drivers:** Visualizes the relationship between home charging availability, range anxiety and overall adoption likelihood.
 
 ---  
 
