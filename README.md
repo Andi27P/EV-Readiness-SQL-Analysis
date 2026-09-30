@@ -1,7 +1,7 @@
 # 🚗 Electric Vehicle (EV) Readiness & Customer Segmentation Analysis
 
 ## 📌 Project Overview
-This project performs an end-to-end SQL analysis on consumer demographics and Electric Vehicle (EV) readiness data. By bridging customer financial profiles with their environmental attitudes and charging infrastructure accessibility, this analysis identifies high-potential target segments and provides strategic recommendations for EV market expansion.
+This project performs an end-to-end SQL analysis on consumer demographics and Electric Vehicle (EV) readiness data. The goal of this project is to analyze the key drivers and barriers to EV adoption using SQL.
 
 ---
 
